@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./styles/init-css";
+@import "./styles/colors-css";
+@import "../node_modules/primeflex/primeflex.css";
+
+body {
+    font-size: 14;
+    color: $white;
+    background-color: $bgColor;
+}
+
+a {
+    text-decoration: none;
+    color: $white;
+}
