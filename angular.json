@@ -107,5 +107,7 @@
       }
     }
   },
-  "defaultProject": "zeal-angular"
+  "cli": {
+    "analytics": "9e4e7e1b-1cc5-473d-9caa-76f70b34f3d1"
+  }
 }
