@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { VideoEmbedComponent } from './video-embed.component';
+import { GenresComponent } from './genres.component';
 
-describe('VideoEmbedComponent', () => {
-  let component: VideoEmbedComponent;
-  let fixture: ComponentFixture<VideoEmbedComponent>;
+describe('GenresComponent', () => {
+  let component: GenresComponent;
+  let fixture: ComponentFixture<GenresComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ VideoEmbedComponent ]
+      declarations: [ GenresComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(VideoEmbedComponent);
+    fixture = TestBed.createComponent(GenresComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
